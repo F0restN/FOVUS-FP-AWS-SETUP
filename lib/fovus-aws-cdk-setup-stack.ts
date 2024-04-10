@@ -218,7 +218,7 @@ export class FovusAwsCdkSetupStack extends cdk.Stack {
           'ec2:CreateNetworkInterface',
           'iam:PassRole',
         ],
-        resources: ['*'], // Replace with specific EC2 resource ARNs if needed
+        resources: ['*'],
       })
     );
   }
